@@ -27,8 +27,8 @@ Follow these steps to run the program locally:
 ### 1. Clone the Repository
 
 ```bash
-https://github.com/MRunal2003-code/titanic-chatbot.git
-cd titanic-chatbot
+https://github.com/MRunal2003-code/TailorTalk.git
+cd TailorTalk
 ```
 
 ### 2. Create a Virtual Environment
