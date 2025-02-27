@@ -5,6 +5,16 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import io
 import base64
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins; for production, specify your Streamlit URL
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
+
 
 app = FastAPI()
 
